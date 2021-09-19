@@ -37,11 +37,17 @@
 	border: 1px solid #F2Ac29; 
 	width: 125px;
 	border-radius: 0 20px 20px 0;
-	font-size: 20px;;
+	font-size: 20px;
+	background-color: #1b458e;
 }
 
+.fa-search{
+	color: white;
+}
+
+
 #search-component > button:hover {
-	background-color: #1f4ad6;
+	background-color: #34548b;
 	cursor: pointer;
 }
 

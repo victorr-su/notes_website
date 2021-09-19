@@ -55,6 +55,9 @@ export default function Upload() {
 					<button id="worksheets">Relevant Worksheets</button>
 					<button id="assignments">Previous Assignments</button>
 				</div>
+				<div class="submitbtn">
+					<button id="submit">Submit</button>
+				</div>
 
 			</div>
 		</div>

@@ -25,8 +25,8 @@ export default function Notes(courseCode, school) {
 					school
 				}
 			});
-			// setNotes(() => res.body)
-			console.log(res.body)
+			setNotes(res.data)
+			// console.log(res.data)
 		}
 		request()
 
@@ -74,7 +74,7 @@ export default function Notes(courseCode, school) {
 							<div id="label">{note.course_code}</div>
 							<div id="label">{note.creation_date}</div>
 							<div id="label">{note.rating}</div>
-							<a href={`${note.url}`} >Download</a>
+							<a href={`${note.notes}`} >Download</a>
 							<div>
 								<i class="fas fa-thumbs-up" id="like" onClick={() => onLike(note)}></i>
 								<i class="fas fa-thumbs-down" id="dislike" onClick={() => onDislike(note)}></i>
