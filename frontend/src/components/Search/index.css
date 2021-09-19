@@ -1,0 +1,61 @@
+.search {
+	display: flex;
+	flex-direction: row;
+	width: 800px;
+	height: 5rem;
+	justify-content: space-around;
+	align-items: center;
+}
+
+ #course-code, #school{
+	 height: 5rem;
+	 border: 1px solid #F2Ac29; 
+	 border-color: #F2Ac29;
+	 width: 50%;
+	 outline: none;
+	 padding-left: 15px;
+}
+
+#course-code[type="text"], #school[type="text"]{
+	font-size: 20px;
+	color:grey;
+	background-color: #f2f2f2;
+}
+
+#course-code::placeholder, #school::placeholder {
+	color: grey;
+}
+
+
+#course-code {
+	border-radius: 20px 0 0 20px;
+}
+
+#search-component > button {
+	height: 5.1rem;
+	padding: 1px;
+	border: 1px solid #F2Ac29; 
+	width: 125px;
+	border-radius: 0 20px 20px 0;
+	font-size: 20px;;
+}
+
+#search-component > button:hover {
+	background-color: #1f4ad6;
+	cursor: pointer;
+}
+
+#search-container {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+#search-component {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}

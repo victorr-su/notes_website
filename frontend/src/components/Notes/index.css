@@ -1,0 +1,65 @@
+.notes_header{
+    color: black;
+    position:relative;
+    padding-top: 15px;
+    margin-left: 5px;
+    cursor: default;
+    margin-left: 75px;
+}
+
+/* #notes {
+	margin-left: 300px;
+} */
+
+.idk {
+	margin-left: 25px;
+}
+
+.note-row {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	width: auto;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.note-row > div, .note-row > a, .note-row > button{
+	width: 80px;
+    height: 30px;
+    
+    padding-top: 10px;
+    margin-left: 5px;
+    font-size: 16px;
+    margin-top: 5px;
+
+    color: rgb(80, 42, 42);
+    font: Arial, bolder, sans-serif;
+    position:center;
+    text-align: center;
+    background-color: rgb(221, 221, 125);
+    border-radius: 5px; 
+
+}
+
+#like{
+    cursor: pointer;
+    padding-right: 15px;
+    font-size: 25px;
+}
+#dislike{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#like:hover{
+    color: green
+}
+#dislike:hover{
+    color: red
+}
+
+#label{
+    cursor:default
+}
+
+

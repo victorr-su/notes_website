@@ -1,0 +1,74 @@
+*{
+    padding: 0px;
+}
+#School,#ClassCode, #Email, #Name{
+    margin-top: 25px;
+}
+#Email{margin-bottom: 25px;}
+
+.buttons{
+    display: flex;
+    justify-content:space-evenly;
+}
+#notes,#textbooks,#worksheets,#assignments{
+    width: 100px;
+    height: 50px;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(31, 74, 214);
+    border-radius: 5px;
+    box-shadow:inset 0 0 0 0 #F2C53D;
+    transition: ease-out 0.4s;
+    cursor: pointer;
+    font-size: 1rem;
+    font-family: 'Boogaloo', cursive;
+}
+#notes:hover{
+    box-shadow:inset 100px 0 0 0 #F2C53D;
+    color: black;
+}
+#textbooks:hover{
+    box-shadow:inset 100px 0 0 0 #F2C53D;
+    color: black;
+}
+#worksheets:hover{
+    box-shadow:inset 100px 0 0 0 #F2C53D;
+    color: black;
+}
+#assignments:hover{
+    box-shadow:inset 100px 0 0 0 #F2C53D;
+    color: black;
+}
+#School, #ClassCode, #Name, #Email{
+    border:none;
+    appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    -moz-appearance: none;
+    background: #f2f2f2;
+    border-radius: 3px;
+    padding: 12px;
+    width: 150px;
+    outline:none;
+}
+
+.textboxes div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#uploadHeader{
+    cursor: default
+}
+    .upload{
+        margin-left: 300px;
+        width: 500px;
+        margin-left: 50px;
+    }
+
+#uploads-container {
+    margin-left: 50px;
+    padding-bottom: 50px;
+}
