@@ -1,4 +1,4 @@
-# notes_website
+# KnowShare
 
 A project built during Hack the North 2021
 
